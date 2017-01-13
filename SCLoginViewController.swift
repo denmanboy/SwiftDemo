@@ -157,9 +157,6 @@ class SCLoginViewController: UIViewController ,UITextFieldDelegate{
         return true
     }
     
-    
-    
-
     //MARK: - 返回上一页
     @IBAction func gotoBack(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
